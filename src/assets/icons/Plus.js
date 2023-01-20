@@ -1,4 +1,4 @@
-export const ArrowChervron = ({color="#070F21"}) => {
+export const Plus = () => {
   return (
     <svg
       width="22"
@@ -8,11 +8,16 @@ export const ArrowChervron = ({color="#070F21"}) => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M5.5 8.25L11 13.75L16.5 8.25"
-        stroke={color}
+        d="M18.3333 11H3.66667"
+        stroke="white"
         strokeWidth="1.5"
         strokeLinecap="round"
-        strokeLinejoin="round"
+      />
+      <path
+        d="M11 18.3334V3.66675"
+        stroke="white"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
     </svg>
   );

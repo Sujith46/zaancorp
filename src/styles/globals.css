@@ -44,3 +44,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.Main {
+  display: flex;
+}

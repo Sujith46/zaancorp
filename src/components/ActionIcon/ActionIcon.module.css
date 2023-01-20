@@ -1,0 +1,9 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 8px;
+    border: var(--border);
+    cursor: pointer;
+}

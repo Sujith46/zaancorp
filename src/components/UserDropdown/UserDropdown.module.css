@@ -1,0 +1,54 @@
+.Container {
+    display: flex;
+}
+
+.UserList {
+  background-color: var(--bg-light-grey);
+  border-radius: 8px 0px 0px 8px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}
+
+.UserInfo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.UserNotification {
+    padding: 4px;
+    border-radius: 4px;
+    font-size: var(--text-size-s);
+    color: #FFFFFF;
+    line-height: 12px;
+}
+
+.UserNotification.Yello {
+    background-color: #FAAD14;
+}
+
+.UserNotification.Purple {
+    background-color: #B0A1DF;
+}
+
+.UserDivider {
+    border-right: var(--border);
+    height: 100%;
+    width: 2px;
+}
+
+.UserDropdown {
+    background-color: var(--bg-primary);
+    border-radius: 0px 8px 8px 0px;
+    padding: 8px;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+}
+
+.UserDropdown svg {
+    opacity: 0.6;
+}

@@ -26,4 +26,5 @@
     font-size: var(--text-size-l);
     font-weight: var(--font-normal);
     color: var(--primary-text-color);
+    line-height: 20px;
 }

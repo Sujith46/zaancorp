@@ -4,11 +4,17 @@
   justify-content: space-between;
   padding: 27px 15px 27px 30px;
   border-bottom: var(--border);
+  max-height: 76px;
+  height: 100%;
 }
 .Logo__Content {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.Logo__Content svg {
+  opacity: 0.6;
 }
 
 .Logo__ContentGreenDot {

@@ -10,6 +10,8 @@ import { UserStar } from "./UserStar";
 import { Notifications } from "./Notifications";
 import { Documents } from "./Documents";
 import { Segments } from "./Segments";
+import { Suggestions } from "./Suggestion";
+import { Plus } from "./Plus";
 
 export {
   ArrowChervron,
@@ -24,4 +26,6 @@ export {
   Notifications,
   Documents,
   Segments,
+  Suggestions,
+  Plus,
 };

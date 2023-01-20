@@ -1,0 +1,8 @@
+.Container {
+  background-color: #0e8cff;
+  border-radius: 8px;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
