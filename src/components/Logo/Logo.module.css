@@ -1,0 +1,26 @@
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 15px 27px 30px;
+  border-bottom: var(--border);
+}
+.Logo__Content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Logo__ContentGreenDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--bg-green);
+}
+
+.Logo__ContentName {
+  font-size: var(--text-size-xl);
+  line-height: 21px;
+  font-weight: var(--font-bold);
+  color: var(--primary-text-color);
+}
