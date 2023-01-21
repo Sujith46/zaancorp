@@ -1,0 +1,21 @@
+.Container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.StatusBtn {
+    border-radius: 50%;
+    padding: 6px;
+    background-color: var(--bg-blue);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.StatusBtn svg {
+    width: 18px;
+    height: 18px;
+}

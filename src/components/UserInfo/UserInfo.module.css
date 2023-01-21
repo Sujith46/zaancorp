@@ -1,0 +1,25 @@
+.Container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Number {
+    background-color: var(--bg-blue);
+    color: var(--bg-primary);
+    padding: 4px;
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+    line-height: 11px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: -1px;
+
+}

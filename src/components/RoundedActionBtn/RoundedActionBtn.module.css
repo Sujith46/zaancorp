@@ -1,14 +1,15 @@
 .Container {
+    padding: 6px;
+    border-radius: 50%;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
-    padding: 8px;
-    border: var(--border);
     cursor: pointer;
 }
 
 .Container svg {
-    height: 24px;
-    width: 24px;
+    opacity: 1;
+    width: 18px;
+    height: 18px;
 }

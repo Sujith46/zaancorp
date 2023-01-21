@@ -1,0 +1,42 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: var(--bg-primary);
+}
+
+.LeftCol {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.RightCol {
+
+}
+
+.UserInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.Divider {
+    width: 1px;
+    height: 100%;
+    border: var(--border);
+}
+
+.UserList {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.Heading {
+    font-size: var(--text-size-xxl);
+    font-weight: var(--font-bold);
+    line-height: 30px;
+    color: var(--primary-text-color);
+}

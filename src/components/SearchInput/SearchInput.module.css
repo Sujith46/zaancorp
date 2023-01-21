@@ -1,0 +1,21 @@
+.Container {
+    border: var(--border);
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    gap: 8px;
+    width: 100%;
+}
+
+.Input {
+    border: none;
+    font-weight: var(--font-normal);
+    font-size: var(--text-size-l);
+    line-height: 20px;
+}
+
+.Input:active, .Input:focus {
+    border: none;
+    outline: none;
+}

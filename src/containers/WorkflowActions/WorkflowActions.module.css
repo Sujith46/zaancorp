@@ -1,0 +1,22 @@
+.Container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.CustomActionBtn {
+    padding: 6px;
+}
+
+.ActionContent {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.ActionContent svg {
+    width: 16px;
+    height: 16px;
+}
