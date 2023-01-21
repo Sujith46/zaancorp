@@ -12,6 +12,15 @@ import { Documents } from "./Documents";
 import { Segments } from "./Segments";
 import { Suggestions } from "./Suggestion";
 import { Plus } from "./Plus";
+import { Search } from "./Search";
+import { Announcement } from "./Annoucement";
+import { ChatAlert } from "./ChatAlert";
+import { Design } from "./Design";
+import { Code } from "./Code";
+import { Pinned } from "./Pinned";
+import { File } from "./File";
+import { Save } from "./Save";
+import { Filter } from "./Filter";
 
 export {
   ArrowChervron,
@@ -28,4 +37,13 @@ export {
   Segments,
   Suggestions,
   Plus,
+  Search,
+  Announcement,
+  ChatAlert,
+  Design,
+  Code,
+  Pinned,
+  File,
+  Save,
+  Filter,
 };
