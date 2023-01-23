@@ -1,16 +1,16 @@
 .AddContainer {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding: 8px 12px;
-    border: 1px solid rgba(7, 15, 33, 0.1);
-    border-radius: 6px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  border: 1px solid rgba(7, 15, 33, 0.1);
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .AddContainer svg {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .AddCardText {
@@ -18,4 +18,34 @@
   font-size: 13px;
   line-height: 20px;
   color: var(--bg-blue);
+}
+
+.AddNewCardContainer {
+    margin-top: 8px;
+}
+
+.AddCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.TitleText {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.Input {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    resize: none;
+}
+
+.Input:active, .Input:focus {
+    outline: none;
+    border: 1px solid #0E8CFF;
 }

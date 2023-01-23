@@ -19,9 +19,21 @@ const WorkflowListing = () => {
   const [inReviewStateData, setInReviewStateData] = useState(inReviewState);
   const [completedStateData, setCompletedStateData] = useState(completedState);
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleAddNewCard = () => {
+    setIsOpen(true);
+  };
+
   return (
     <div className={styles.Container}>
-      <WorkflowState stateText="Backlog" itemCount="2">
+      <WorkflowState
+        stateText="Backlog"
+        itemCount="2"
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        handleAddNewCard={handleAddNewCard}
+      >
         {backlogStateData.map((item, index) => (
           <Card
             key={index}

@@ -24,6 +24,9 @@ import { Filter } from "./Filter";
 import { MenuDot } from "./MenuDot";
 import { Description } from "./Description";
 import { FileCheck } from "./FileCheck";
+import { Close } from "./Close";
+import { Checklist } from "./Checklist";
+import { List } from "./List";
 
 export {
   ArrowChervron,
@@ -51,5 +54,8 @@ export {
   Filter,
   MenuDot,
   Description,
-  FileCheck
+  FileCheck,
+  Close,
+  Checklist,
+  List,
 };

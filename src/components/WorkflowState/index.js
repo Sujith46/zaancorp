@@ -3,7 +3,14 @@ import { SortBy } from "@/assets/icons/SortBy";
 import AddCard from "../AddCard";
 import styles from "./WorkflowState.module.css";
 
-const WorkflowState = ({ stateText, itemCount, children }) => {
+const WorkflowState = ({
+  stateText,
+  itemCount,
+  children,
+  isOpen,
+  setIsOpen,
+  handleAddNewCard,
+}) => {
   return (
     <div className={styles.Container}>
       <div className={styles.WorkflowInfo}>
@@ -20,7 +27,7 @@ const WorkflowState = ({ stateText, itemCount, children }) => {
         <MenuDot />
       </div>
       <div className={styles.CardContainerScrollable}>{children}</div>
-      <AddCard />
+      <AddCard isOpen={isOpen} setIsOpen={setIsOpen} handleAddNewCard={handleAddNewCard} />
     </div>
   );
 };
