@@ -1,5 +1,6 @@
 .Container {
     padding: 16px 15px;
+    border-bottom: var(--border);
 }
 
 .MenuWrapper {

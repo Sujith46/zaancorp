@@ -1,0 +1,57 @@
+.Container {
+    width: fit-content;
+    border-radius: 8px;
+    background-color: var(--bg-light-grey);
+    padding: 8px;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.WorkflowInfo {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    margin-bottom: 8px;
+}
+
+.InfoContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Filters {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.Info span:nth-child(1) {
+    margin-right: 4px;
+}
+
+.InfoText {
+    font-size: var(--text-size-m);
+    line-height: 20px;
+    font-weight: var(--font-bold);
+    white-space: nowrap;
+}
+
+.CountInfo {
+    font-weight: var(--font-normal);
+    font-size: var(--text-size-s);
+    line-height: 20px;
+    opacity: 0.5;
+}
+
+.Container svg {
+    cursor: pointer;
+}
+
+.CardContainerScrollable {
+    max-height: 500px;
+    overflow-y: scroll;
+}

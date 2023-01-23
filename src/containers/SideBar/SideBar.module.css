@@ -6,3 +6,19 @@
     background-color: var(--bg-primary);
     border-right: var(--border);
 }
+
+.Company {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 30px;
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+.MenuText {
+    font-size: var(--text-size-l);
+    font-weight: var(--font-normal);
+    color: var(--primary-text-color);
+    line-height: 20px;
+}

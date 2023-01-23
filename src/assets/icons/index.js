@@ -21,6 +21,9 @@ import { Pinned } from "./Pinned";
 import { File } from "./File";
 import { Save } from "./Save";
 import { Filter } from "./Filter";
+import { MenuDot } from "./MenuDot";
+import { Description } from "./Description";
+import { FileCheck } from "./FileCheck";
 
 export {
   ArrowChervron,
@@ -46,4 +49,7 @@ export {
   File,
   Save,
   Filter,
+  MenuDot,
+  Description,
+  FileCheck
 };
